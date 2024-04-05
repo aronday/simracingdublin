@@ -5,8 +5,8 @@ defaultContentLanguage = "en"
 theme = "spectral"
 
 [params]
-fancyTitle = "Sim Racing Dublin" # title for frontpage, may include image
-description = 'Coming Soon<br /><br /><a href="mailto:hello@simracingdublin.ie?subject=Enquiry from simracingdublin.ie" class="icon solid fa-envelope"><span class="label">Email</span></a> <a href="https://www.facebook.com/simracingdublin" class="icon brands fa-facebook"><span class="label">Facebook</span></a> <a href="https://instagram.com/simracingdublin" class="icon brands fa-instagram"><span class="label">Instagram</span></a> <a href="https://twitter.com/simracingdublin" class="icon brands fa-twitter"><span class="label">X</span></a>'
+fancyTitle = "Sim Racing Dublin"
+description = 'A new experience coming soon!'
 body_is_markdown = true
 #images = ["path_to_social_image_for_link_previews.jpg"]
 
