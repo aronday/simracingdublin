@@ -1,0 +1,5 @@
+.DS_Store
+
+# Hugo files
+themes/spectral/exampleSite/
+.hugo_build.lock
