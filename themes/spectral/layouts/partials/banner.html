@@ -8,7 +8,16 @@
     <a href="https://www.facebook.com/simracingdublin" class="icon brands fa-facebook"><span class="label">Facebook</span></a> 
     <a href="https://instagram.com/simracingdublin" class="icon brands fa-instagram"><span class="label">Instagram</span></a> 
     <a href="https://twitter.com/simracingdublin" class="icon brands fa-twitter"><span class="label">X</span></a>
-    {{ if and .Site.Params.startbuttonText .Site.Params.startbuttonLink }}
-    {{ end }}
+    <br/>
+    <div class="cookies">
+        <br/>
+        <p><a href="/cookies-privacy/">Cookie & Privacy Policy</a></p>
+    </div>
+    <div id="CookieBanner" class="cookie-banner js-cookie-banner">
+        <p>
+          This website uses cookies. You consent to our cookies if you continue to use our website. Read more in <a href="/cookies-privacy/">Cookies & Privacy Policy</a>.
+        <button class="cookie-btn">Ok</button>
+      </div>
+      <script src="scripts/cookie.js" async></script>
 	</div>
 </section>

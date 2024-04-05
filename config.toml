@@ -1,5 +1,5 @@
 baseURL = "https://simracingdublin.ie"
-title = "Sim Racing Dublin"
+title = "Sim Racing Dublin | Ireland"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 theme = "spectral"
@@ -9,15 +9,6 @@ fancyTitle = "Sim Racing Dublin"
 description = 'A new experience coming soon!'
 body_is_markdown = true
 #images = ["path_to_social_image_for_link_previews.jpg"]
-
-[params.social]
-twitter = ""
-mastodon = ""
-github = ""
-facebook = ""
-youtube = ""
-instagram = ""
-dribble = ""
 
 # language specific options
 
@@ -32,3 +23,7 @@ target = 'static'
 [[module.mounts]]
 source = 'images'
 target = 'static/images'
+
+[[module.mounts]]
+source = 'scripts'
+target = 'static/scripts'
